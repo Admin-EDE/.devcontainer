@@ -1,0 +1,6 @@
+{
+  "name":"Docker Mineduc",
+  "dockerFile": "DockerFile",
+  "workspaceMount": "source=${localWorkspaceFolder}/DockerEdeCode,target=/usr/src/ede,type=bind,consistency=delegated",
+  "workspaceFolder": "/usr/src/ede"
+}
